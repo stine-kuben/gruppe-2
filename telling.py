@@ -11,7 +11,4 @@ def dobleListe(tallListe):
     tallListe_dobbel.append(ny_tall)
   return tallListe_dobbel 
 
-
-    
-
 print(dobleListe(tallListe))
