@@ -1,7 +1,7 @@
 def tell_tegn(tegn, tekst):
   antall = 0
-  for i in tekst:
-    if i == tegn:
+  for karakter in tekst:
+    if karakter == tegn:
       antall += 1
   return antall
 
